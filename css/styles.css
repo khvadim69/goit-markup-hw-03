@@ -26,6 +26,11 @@ body {
     font-style: normal;
     color: var(--color-primary);
 }
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+}
 .container {
     margin: auto 200px;
     padding: 0 15px;
@@ -40,6 +45,7 @@ body {
   .header-flex {
     display: flex;
     justify-content: space-between;
+    border-top: 1px solid #ECECEC;
 }
   .nav-flex-header {
     /* align-items:baseline; */
@@ -113,9 +119,7 @@ body {
 }
 .order {
     display: block;
-    margin-bottom: 94px;
     padding-top: 200px;
-    height: 600px;
     width: 1600px;
     background-color: var(--color-order-section);
 }
@@ -133,10 +137,12 @@ body {
     color: var(--color-title-secondary);
 }
 .order-button { 
-    padding: 10px 32px;
+    display: flex;
+    padding: 10px auto;
     margin:0px auto 200px auto;
     display:block;
-    width: 216px;
+    height: 50px;
+    width: 200px;
     font-weight: 700;
     cursor: pointer;
     font-family: inherit;
@@ -192,7 +198,6 @@ body {
     justify-content: space-between;
 }
 .title-comand { 
-    margin-top: 94px;
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
@@ -208,7 +213,6 @@ body {
 }
 .box-comand {
     padding-top: 0px;
-    margin-bottom: 50px;
     width: 270px;
     height: 368px;
     background-color: var(--color-title-secondary);
@@ -217,7 +221,8 @@ body {
 }
 .comand {
     padding-top: 94px;
-    width: 1200px;
+    width: 1600px;
+    height: 648px;
     background-color: var(--color-comand-section);
 }
 .name {
@@ -296,7 +301,7 @@ body {
     width: 370px;
     height: 404px;
     background: var(--color-title-secondary);
-    border: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
 
 }
 .card:nth-child(n + 7) {
