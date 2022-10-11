@@ -20,7 +20,7 @@ p {padding: 0;
     margin: 0;
 }
 body { 
-    width: 1600px;
+    /* width: 1600px; */
     font-family: 'Roboto','Arial','Helvetica',sans-serif;
     font-style: normal;
     color: var(--color-primary);
@@ -190,6 +190,7 @@ ul,li {
     justify-content: space-between;
 }
 .title-comand { 
+    /* margin-top: 94px; */
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
