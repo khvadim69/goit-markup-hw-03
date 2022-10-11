@@ -9,93 +9,98 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-        >
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
-    <header class="container">
-        <div class="header-flex">
-            <nav class="nav-flex-header">
-                <a href="./index.html" class="logo link "><span class="web">Web</span><span class="studio">Studio</span></a>
-                <ul class="nav-flex">
-                    <li class="nav-link"><a href="./index.html" class="link-nav link-current link">Студія</a></li>
-                    <li class="nav-link"><a href="./portfolio.html" class="link-nav link">Портфоліо</a></li>
-                    <li class="nav-link"><a href="" class="link-nav link">Контакт</a></li>
+    <header class="header-box">
+        <div class="container">
+            <div class="nav-flex-header">
+                <nav class="nav-flex-header">
+                    <a href="./index.html" class="logo link "><span class="web">Web</span><span class="studio">Studio</span></a>
+                    <ul class="nav-flex">
+                        <li><a href="./index.html" class="link-nav link-current link">Студія</a></li>
+                        <li><a href="./portfolio.html" class="link-nav link">Портфоліо</a></li>
+                        <li><a href="" class="link-nav link">Контакт</a></li>
+                    </ul>
+                </nav>
+                <ul class="nav-flex-tel">
+                    <li><a href="mailto:info@devstudio.com" class="nav-contact link">info@devstudio.com</a></li>
+                    <li><a href="tel:+380961111111" class="nav-contact link">+38 096 111 11 11</a></li>
                 </ul>
-            </nav>
-            <ul class="nav-flex-link">
-                <li class="nav-link"><a href="mailto:info@devstudio.com" class="nav-contact link">info@devstudio.com</a>
-                </li>
-                <li class="nav-link"><a href="tel:+380961111111" class="nav-contact link">+38 096 111 11 11</a></li>
-            </ul>
-        </div>
+            </div>
+            
+        </div>                
     </header>
        
       
     <main>
-            <section class="">
+            <section>
                 <div class="container">
                     <ul class="flex-button">
-                        <li class="button-flex"><button type="button" class="button">Усi</button></li>
-                        <li class="button-flex"><button type="button" class="button">Веб сайт</button></li>
-                        <li class="button-flex"><button type="button" class="button">Додатки</button></li>
-                        <li class="button-flex"><button type="button" class="button">Дизайн</button></li>
-                        <li class="button-flex"><button type="button" class="button">Маркетинг</button></li>
+                        <li class="button-list"><button type="button" class="button">Усi</button></li>
+                        <li class="button-list"><button type="button" class="button">Веб сайт</button></li>
+                        <li class="button-list"><button type="button" class="button">Додатки</button></li>
+                        <li class="button-list"><button type="button" class="button">Дизайн</button></li>
+                        <li class="button-list"><button type="button" class="button">Маркетинг</button></li>
                     </ul>
                 </div>
+            </section>    
                 
             
                     <!--Наші проекти -->
             
-            <div class="container">
-                <ul class="card-flex">
-                <li class="card">
-                    <img src="./images/imgtekhnokriak.jpg" alt="Технокряк Веб сайт" width="370" height="294">
-                    <h3 class="projects">Технокряк</h3>
-                    <p class="project-type">Веб сайт</p>
-                </li>
-                <li class="card">
-                    <img src="./images/imgposterneworlensstars.jpg" alt="Постер Нью Орлеан та Золоті зірки Дізайн" width="370" height="294">
-                    <h3 class="projects">Постер New Orlean vs Golden Star</h3>
-                    <p class="project-type">Дізайн</p>
-                </li>
-                <li class="card">
-                    <img src="./images/imgseafoods.jpg" alt="Ресторан Морська їжа Додаток" width="370" height="294">
-                    <h3 class="projects">Ресторан Seafood</h3>
-                    <p class="project-type">Додаток</p>
-                </li>
-                <li class="card">
-                    <img src="./images/imgprime.jpg" alt="Проєкт Прайм Маркетинг" width="370" height="294">
-                    <h3 class="projects">Проєкт Prime</h3>
-                    <p class="project-type">Маркетинг</p>
-                </li>
-                <li class="card">
-                    <img src="./images/imgboxes.jpg" alt="Проєкт Коробки Додаток" width="370" height="294">
-                    <h3 class="projects">Проєкт Boxes</h3>
-                    <p class="project-type">Додаток</p>
-                </li>
-                <li class="card">
-                    <img src="./images/imginspborders.jpg" alt="Натхнення без меж Веб сайт" width="370" height="294">
-                    <h3 class="projects">Inspiration has no Borders</h3>
-                    <p class="project-type">Веб сайт</p>
-                </li>
-                <li class="card">
-                    <img src="./images/imglimited.jpg" alt="Видання Обмежена серія Дизайн" width="370" height="294">
-                    <h3 class="projects">Видання Limited Edition</h3>
-                    <p class="project-type">Дизайн</p>
-                </li>
-                <li class="card">
-                    <img src="./images/imglab.jpg" alt="Проєкт Лаб Маркетинг" width="370" height="294">
-                    <h3 class="projects">Проєкт LAB</h3>
-                    <p class="project-type">Маркетинг</p>
-                </li><li class="card">
-                    <img src="./images/imggrowbis.jpg" alt="Рост бізнесу Додаток" width="370" height="294">
-                    <h3 class="projects">Growing Business</h3>
-                    <p class="project-type">Додаток</p>
-                </li>
-            </ul>
+            <section>
+                <div class="container">
+                    <ul class="card-flex">
+                    <li class="card">
+                        <img src="./images/imgtekhnokriak.jpg" alt="Технокряк Веб сайт" width="370">
+                        <h3 class="projects">Технокряк</h3>
+                        <p class="project-type">Веб сайт</p>
+                    </li>
+                    <li class="card">
+                        <img src="./images/imgposterneworlensstars.jpg" alt="Постер Нью Орлеан та Золоті зірки Дізайн" width="370">
+                        <h3 class="projects">Постер New Orlean vs Golden Star</h3>
+                        <p class="project-type">Дізайн</p>
+                    </li>
+                    <li class="card">
+                        <img src="./images/imgseafoods.jpg" alt="Ресторан Морська їжа Додаток" width="370">
+                        <h3 class="projects">Ресторан Seafood</h3>
+                        <p class="project-type">Додаток</p>
+                    </li>
+                    <li class="card">
+                        <img src="./images/imgprime.jpg" alt="Проєкт Прайм Маркетинг" width="370">
+                        <h3 class="projects">Проєкт Prime</h3>
+                        <p class="project-type">Маркетинг</p>
+                    </li>
+                    <li class="card">
+                        <img src="./images/imgboxes.jpg" alt="Проєкт Коробки Додаток" width="370">
+                        <h3 class="projects">Проєкт Boxes</h3>
+                        <p class="project-type">Додаток</p>
+                    </li>
+                    <li class="card">
+                        <img src="./images/imginspborders.jpg" alt="Натхнення без меж Веб сайт" width="370">
+                        <h3 class="projects">Inspiration has no Borders</h3>
+                        <p class="project-type">Веб сайт</p>
+                    </li>
+                    <li class="card">
+                        <img src="./images/imglimited.jpg" alt="Видання Обмежена серія Дизайн" width="370">
+                        <h3 class="projects">Видання Limited Edition</h3>
+                        <p class="project-type">Дизайн</p>
+                    </li>
+                    <li class="card">
+                        <img src="./images/imglab.jpg" alt="Проєкт Лаб Маркетинг" width="370">
+                        <h3 class="projects">Проєкт LAB</h3>
+                        <p class="project-type">Маркетинг</p>
+                    </li>
+                    <li class="card">
+                        <img src="./images/imggrowbis.jpg" alt="Рост бізнесу Додаток" width="370">
+                        <h3 class="projects">Growing Business</h3>
+                        <p class="project-type">Додаток</p>
+                    </li>
+                </ul>
             </div>
         </section>
     </main>

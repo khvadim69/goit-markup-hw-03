@@ -16,8 +16,7 @@ h2,
 h3,
 ul,
 li,
-p {
-    padding: 0;
+p {padding: 0;
     margin: 0;
 }
 body { 
@@ -26,53 +25,41 @@ body {
     font-style: normal;
     color: var(--color-primary);
 }
-.section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-
-}
 .container {
-    margin: auto 200px;
+    margin:0 auto ;
     padding: 0 15px;
     width: 1200px;    
 }
- ul,li {
+ul,li {
     list-style: none;
 }
- .link {
+.link {
     text-decoration: none;
-}
-  .header-flex {
-    display: flex;
-    justify-content: space-between;
-    border-top: 1px solid #ECECEC;
-}
+  }
   .nav-flex-header {
-    /* align-items:baseline; */
+    align-items:baseline;
     display:flex;
-    
-}
-  .nav-link {   
-    margin-top: 32px;
-    margin-bottom: 32px;
-
+    justify-content: space-between;
   }
   .nav-flex {
     width: 281px;
     display:flex;
     justify-content: space-between;
   }
-  .nav-flex-link {
+  .nav-flex-tel {
     width: 307px;
     display:flex;
     justify-content: space-between;
   }
-
+.header-box {
+    height: 80px;       
+}
 .logo {
     margin-right: 93px; 
     padding-top: 24px;
     padding-bottom: 25px;
     display: block;
+    height: 31px;
     width: 145px;
     font-weight: 700;
     font-family: 'Raleway';
@@ -87,10 +74,11 @@ body {
     color: var(--color-logo-studio);
 }
 .link-nav {
-    
+    display:flex;
     padding-top: 24px;
     padding-bottom: 24px;
     width: 135px;
+    height: 16px;
     font-family: inherit;
     font-weight: 500;
     font-size: 14px;
@@ -105,6 +93,9 @@ body {
     color: var(--color-accent);
 }
 .nav-contact {
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -119,14 +110,16 @@ body {
 }
 .order {
     display: block;
+    margin-bottom: 94px;
     padding-top: 200px;
-    width: 1600px;
+    height: 600px;
     background-color: var(--color-order-section);
 }
 .hero-title {
     margin: 0px 252px 30px;
     display:block;
     width: 696px;
+    height: 120px;
     text-align: center;
     font-weight: 900;
     font-size: 44px;
@@ -137,12 +130,11 @@ body {
     color: var(--color-title-secondary);
 }
 .order-button { 
-    display: flex;
-    padding: 10px auto;
+    padding: 10px;
     margin:0px auto 200px auto;
     display:block;
+    width: 216px;
     height: 50px;
-    width: 200px;
     font-weight: 700;
     cursor: pointer;
     font-family: inherit;
@@ -167,9 +159,9 @@ body {
      width: 1170px;
      margin-top: 94px;
  }
-.title-advantage {
-    margin-bottom: 10px;
+.title-advantage {margin-bottom: 10px;
     display: inline-block;
+    height: 16px;
     width: 270px;
     font-weight: 700;
     font-size: 14px;
@@ -213,20 +205,17 @@ body {
 }
 .box-comand {
     padding-top: 0px;
+    margin-bottom: 50px;
     width: 270px;
-    height: 368px;
     background-color: var(--color-title-secondary);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
-.comand {
-    padding-top: 94px;
-    width: 1600px;
-    height: 648px;
+.comand {padding-top: 94px;
     background-color: var(--color-comand-section);
 }
 .name {
-    margin-top: 50px;
+    padding-top: 30px;
     margin-bottom: 10px;
     font-weight: 500;
     line-height: 1.17;
@@ -235,7 +224,7 @@ body {
     text-align: center;
 }
 .profession {
-    margin-bottom: 50px;
+    padding-bottom: 30px;
     line-height: 1.19;
     /* identical to box height */
     letter-spacing: 0.03em;
@@ -243,6 +232,7 @@ body {
     text-align: center;
 }
 .adress {
+    display: block;
     margin-bottom: 9px;
     font-style: normal;
     font-size: 14px;
@@ -252,6 +242,7 @@ body {
     color: var(--color-title-secondary);
 }
 .contact {
+    display: block;
     margin-bottom: 9px;
     font-style: normal;
     font-family: inherit;
@@ -265,19 +256,21 @@ body {
     color: var(--color-accent);
 }
 .flex-button {
+    
     display: flex;
     justify-content: center;
 }
-.button-flex:last-child {
-    margin-right:0px;   
+
+.button-list{
+    padding-right: 9px;
+    padding-bottom: 56px;
+    padding-top: 94px;
 }
-.button-flex {
-    margin-top:100px;
-    margin-bottom:100px; ; 
-    margin-right: 30px;
+.button-list:last-child {
+    padding-right: 0px;
+    
 }
 .button {
-    padding: 6px 22px;
     cursor: pointer;
     font-family: inherit;
     font-weight: 500;
@@ -292,26 +285,26 @@ body {
 }
 .card-flex {
     display: flex;
-    justify-content:space-between;
-    flex-wrap: wrap;   
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .card {
     padding-top: 0px;
     margin-bottom: 30px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
     width: 370px;
     height: 404px;
     background: var(--color-title-secondary);
-    border-bottom: 1px solid #EEEEEE;
+    border: 1px solid #EEEEEE;
 
-}
-.card:nth-child(n + 7) {
+}.card:nth-child(7) {   
     margin-bottom: 94px;
 }
 .projects {
-    margin-top: 20px;
-    margin-right: 24px;
-    margin-bottom: 4px;
-    margin-left: 24px;
+    padding-top: 20px ;
+    padding-left: 24px;
+    padding-bottom: 4px;
     font-weight: 700;
     line-height: 2;
     /* identical to box height, or 188% */
@@ -319,9 +312,8 @@ body {
 }
 .project-type {
     width: 322px;
-    margin-right: 24px;
-    margin-bottom: 20px;
-    margin-left: 24px;
+    padding-bottom: 20px;
+    padding-left: 24px;
     line-height: 1.88;
     /* identical to box height, or 188% */
     letter-spacing: 0.03em;
@@ -330,13 +322,13 @@ body {
 .footer { 
     display: block;
     padding-top: 60px ;
-    padding-bottom: 60px;
-    width: 1600px;
+    height: 252px;
     background-color: var(--color-order-section);
 }
 .logo-footer {
     margin-bottom: 20px ;
     display: block;
+    height: 31px;
     width: 145px;
     font-weight: 700;
     font-family: 'Raleway';
