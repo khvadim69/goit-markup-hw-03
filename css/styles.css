@@ -20,7 +20,6 @@ p {padding: 0;
     margin: 0;
 }
 body { 
-    /* width: 1600px; */
     font-family: 'Roboto','Arial','Helvetica',sans-serif;
     font-style: normal;
     color: var(--color-primary);
@@ -52,15 +51,14 @@ ul,li {
     justify-content: space-between;
   }
 .header-box {
-    height: 80px;       
+    height: 80px;
+    border: 1px solid #ECECEC;
 }
 .logo {
     margin-right: 93px; 
     padding-top: 24px;
     padding-bottom: 25px;
     display: block;
-    height: 31px;
-    width: 145px;
     font-weight: 700;
     font-family: 'Raleway';
     font-size: 26px;
@@ -77,8 +75,6 @@ ul,li {
     display:flex;
     padding-top: 24px;
     padding-bottom: 24px;
-    width: 135px;
-    height: 16px;
     font-family: inherit;
     font-weight: 500;
     font-size: 14px;
@@ -110,16 +106,17 @@ ul,li {
 }
 .order {
     display: block;
-    margin-bottom: 94px;
     padding-top: 200px;
+    padding-bottom: 200px;
     height: 600px;
     background-color: var(--color-order-section);
 }
 .hero-title {
-    margin: 0px 252px 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
     display:block;
     width: 696px;
-    height: 120px;
     text-align: center;
     font-weight: 900;
     font-size: 44px;
@@ -129,9 +126,10 @@ ul,li {
     text-transform: uppercase;
     color: var(--color-title-secondary);
 }
-.order-button { 
-    padding: 10px;
-    margin:0px auto 200px auto;
+.order-button {
+    margin-left: auto;
+    margin-right: auto;
+    padding:10px auto;
     display:block;
     width: 216px;
     height: 50px;
@@ -151,18 +149,18 @@ ul,li {
 .order-button:hover, .order-button:focus {
     background: var(--color-background);
  }
+ .advantage-box {
+    padding-top: 94px;
+    padding-bottom: 94px;
+ }
  .advantage-flex {
      display:flex ;
      justify-content: space-between;
-     margin-top: 94px;
-     margin-bottom:94px; 
      width: 1170px;
-     margin-top: 94px;
- }
-.title-advantage {margin-bottom: 10px;
+  }
+.title-advantage {
+    padding-bottom: 10px;
     display: inline-block;
-    height: 16px;
-    width: 270px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -178,7 +176,12 @@ ul,li {
     letter-spacing: 0.03em;
     color: var(--color-link-text);
 }
-.specialization-title {margin-bottom: 50px;
+.specialization {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.specialization-title {
+    padding-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -190,8 +193,7 @@ ul,li {
     justify-content: space-between;
 }
 .title-comand { 
-    /* margin-top: 94px; */
-    margin-bottom: 50px;
+    padding-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -199,25 +201,28 @@ ul,li {
     text-align: center;
 }
 .specialization-foto {
-    margin-bottom: 94px;
     padding-top: 0px;
     display:flex;
     justify-content: space-between;
 }
+.comand-name {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 .box-comand {
     padding-top: 0px;
-    margin-bottom: 50px;
     width: 270px;
     background-color: var(--color-title-secondary);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
 .comand {padding-top: 94px;
+    padding-bottom: 94px;
     background-color: var(--color-comand-section);
 }
 .name {
-    padding-top: 30px;
-    margin-bottom: 10px;
+    font-size: 16px;
+    padding-bottom: 10px;
     font-weight: 500;
     line-height: 1.17;
     /* identical to box height */
@@ -225,7 +230,6 @@ ul,li {
     text-align: center;
 }
 .profession {
-    padding-bottom: 30px;
     line-height: 1.19;
     /* identical to box height */
     letter-spacing: 0.03em;
@@ -256,30 +260,38 @@ ul,li {
 .contact:hover,.contact:focus {
     color: var(--color-accent);
 }
+.projects-box {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+}
 .flex-button {
-    
+    margin-bottom: 50px;
     display: flex;
     justify-content: center;
 }
 
 .button-list{
     padding-right: 9px;
-    padding-bottom: 56px;
-    padding-top: 94px;
 }
 .button-list:last-child {
     padding-right: 0px;
     
 }
-.button {
+.button { 
+    padding: 6px 22px;
     cursor: pointer;
     font-family: inherit;
     font-weight: 500;
     line-height: 1.63;
     /* identical to box height, or 162% */
     text-align: center;
-    letter-spacing: 0.03em;    
+    letter-spacing: 0.03em;
+    border-radius: 4px;
+    background-color: #F5F4FA;
+    border-color:#F5F4FA;
 }
+
 .button:hover,.button:focus {
     color: var(--color-title-secondary);
     background-color: var(--color-accent);
@@ -299,12 +311,11 @@ ul,li {
     background: var(--color-title-secondary);
     border: 1px solid #EEEEEE;
 
-}.card:nth-child(7) {   
-    margin-bottom: 94px;
+}
+.filter {
+    padding: 20px 24px;
 }
 .projects {
-    padding-top: 20px ;
-    padding-left: 24px;
     padding-bottom: 4px;
     font-weight: 700;
     line-height: 2;
@@ -313,8 +324,6 @@ ul,li {
 }
 .project-type {
     width: 322px;
-    padding-bottom: 20px;
-    padding-left: 24px;
     line-height: 1.88;
     /* identical to box height, or 188% */
     letter-spacing: 0.03em;
@@ -323,7 +332,7 @@ ul,li {
 .footer { 
     display: block;
     padding-top: 60px ;
-    height: 252px;
+    padding-bottom: 60px;
     background-color: var(--color-order-section);
 }
 .logo-footer {
