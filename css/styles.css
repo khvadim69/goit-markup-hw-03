@@ -265,19 +265,20 @@ ul,li {
     padding-bottom: 94px;
 
 }
-.flex-button {
+.button-list {
     margin-bottom: 50px;
     display: flex;
     justify-content: center;
+    gap: 9px;
 }
 
-.button-list{
+/* .button-list{
     padding-right: 9px;
 }
 .button-list:last-child {
     padding-right: 0px;
     
-}
+} */
 .button { 
     padding: 6px 22px;
     cursor: pointer;
@@ -303,12 +304,8 @@ ul,li {
     gap: 30px;
 }
 .card {
-    /* padding-top: 0px; */
-    /* margin-bottom: 30px; */
-    /* padding-bottom: 20px; */
     box-sizing: border-box;
     width: 370px;
-    /* height: 404px; */
     background: var(--color-title-secondary);
     border: 1px solid #EEEEEE;
 
