@@ -313,7 +313,7 @@ ul,li {
     letter-spacing: 0.03em;
 }
 .project-type {
-    width: 322px;
+    /* width: 322px; */
     line-height: 1.88;
     /* identical to box height, or 188% */
     letter-spacing: 0.03em;
