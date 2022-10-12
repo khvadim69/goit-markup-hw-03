@@ -51,7 +51,7 @@ ul,li {
     justify-content: space-between;
   }
 .header-box {
-    height: 80px;
+    /* height: 80px; */
     border: 1px solid #ECECEC;
 }
 .logo {
