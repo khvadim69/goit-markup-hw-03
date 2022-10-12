@@ -177,7 +177,7 @@ ul,li {
     color: var(--color-link-text);
 }
 .specialization {
-    padding-top: 94px;
+    /* padding-top: 94px; */
     padding-bottom: 94px;
 }
 .specialization-title {
