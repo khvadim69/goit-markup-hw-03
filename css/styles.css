@@ -111,9 +111,10 @@ ul,li {
     background-color: var(--color-order-section);
 }
 .hero-title {
+  
     margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 30px;
+    margin-right: auto;  
+    margin-bottom: 30px;
     display:block;
     width: 696px;
     text-align: center;
