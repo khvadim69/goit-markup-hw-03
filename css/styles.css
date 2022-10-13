@@ -51,8 +51,7 @@ ul,li {
     justify-content: space-between;
   }
 .header-box {
-    /* height: 80px; */
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
 }
 .logo {
     margin-right: 93px; 
@@ -181,7 +180,7 @@ ul,li {
     padding-bottom: 94px;
 }
 .specialization-title {
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -193,7 +192,7 @@ ul,li {
     justify-content: space-between;
 }
 .title-comand { 
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -235,6 +234,9 @@ ul,li {
     color: var(--color-link-text);
     text-align: center;
 }
+.link-footer {
+    margin-bottom: 9px;
+}
 .adress {
     display: block;
     margin-bottom: 9px;
@@ -247,7 +249,6 @@ ul,li {
 }
 .contact {
     display: block;
-    margin-bottom: 9px;
     font-style: normal;
     font-family: inherit;
     font-size: 14px;
